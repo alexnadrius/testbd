@@ -1,0 +1,26 @@
+{
+  "name": "crm-chat-backend",
+  "version": "1.0.0",
+  "description": "Backend для CRM Chat с использованием SQLite",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "vercel dev"
+  },
+  "keywords": [
+    "crm",
+    "chat",
+    "sqlite",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "better-sqlite3": "^8.5.0"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+}
